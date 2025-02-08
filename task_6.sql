@@ -8,7 +8,7 @@ VALUES
 (4, 'Nehemial Kamolu', 'nkamolu@sandtech.com', '126 Happiness Ave.');
 
 -- Check for the insertion of the customer with customer_id=2
-SELECT * FROM customer WHERE customer_id = 2;
+SELECT * FROM customer WHERE customer_id = 2 AND address = '124 Happiness Ave.';
 
 -- Check for the insertion of the customer with customer_id=3
 SELECT * FROM customer WHERE customer_id = 3;
